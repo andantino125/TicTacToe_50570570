@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <Switch
+            android:id="@+id/switch_dark_mode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:showText="true"
+            android:text="@string/setting_dark_mode"
+            android:textOff="@string/setting_off"
+            android:textOn="@string/setting_on"
+            android:textSize="25sp" />
+        <Switch
+            android:id="@+id/switch_android_first"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:showText="true"
+            android:text="@string/setting_android_first"
+            android:textOff="@string/setting_off"
+            android:textOn="@string/setting_on"
+            android:textSize="25sp" />
+        <Switch
+            android:id="@+id/switch_sound_effect"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:showText="true"
+            android:text="@string/setting_sound_effect"
+            android:textOff="@string/setting_off"
+            android:textOn="@string/setting_on"
+            android:textSize="25sp" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="left"
+                android:onClick="chooseDifficulty"
+                android:showText="true"
+                android:text="@string/setting_difficulty"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/switch_difficulty"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="right"
+                android:onClick="chooseDifficulty"
+                android:showText="true"
+                android:text="Value"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

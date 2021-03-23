@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">过三关</string>
+    <string name="human_first">你先走</string>
+    <string name="human_turn">到你了 (X)</string>
+    <string name="android_turn">到安卓了</string>
+    <string name="tie">平局!</string>
+    <string name="human_won">你获胜!</string>
+    <string name="android_won">安卓获胜!</string>
+    <string name="start_new_game">开始新游戏</string>
+    <string name="level">难度</string>
+    <string name="level_1">容易</string>
+    <string name="level_2">一般</string>
+    <string name="level_3">困难</string>
+    <string name="win">胜</string>
+    <string name="draw">和</string>
+    <string name="loss">负</string>
+    <string name="clear_history">重新统计</string>
+    <string name="setting_title">设定</string>
+    <string name="setting_done">完成</string>
+    <string name="setting_dark_mode">黑色主题</string>
+    <string name="setting_android_first">安卓先走</string>
+    <string name="setting_sound_effect">音效</string>
+    <string name="setting_difficulty">难度</string>
+    <string name="choose_difficulty">选择难度</string>
+    <string name="setting_on">开</string>
+    <string name="setting_off">关</string>
+    <string name="exit_title">离开</string>
+    <string name="exit_message">确定退出游戏吗?</string>
+    <string name="exit_yes">是</string>
+    <string name="exit_no">否</string>
+</resources>
